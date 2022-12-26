@@ -6,11 +6,14 @@
 .root{
     --bckground: F71BF0
 }
+title{
+    background-color: black;
+}
 
 .main-header {
     padding: 50px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: blueviolet;
+    background-color: grey;
     color: black;
 }
 
@@ -21,7 +24,7 @@
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-    background-color: blueviolet
+    background-color: grey
 }
 
 .main-header div ul {
@@ -42,4 +45,12 @@
     background-image: url(../assets/image/space-view-of-earth.png);
     background-size: cover;
     background-position: center;
+}
+
+h2{
+    font-size: 50px;
+    color: navy;
+}
+article p{
+    float: right;
 }
