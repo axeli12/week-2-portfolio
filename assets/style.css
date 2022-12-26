@@ -1,21 +1,27 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 .root{
     --bckground: F71BF0
 }
 
 .main-header {
-    padding: 20px;
+    padding: 50px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
+    background-color: blueviolet;
+    color: black;
 }
 
 
 .main-header div {
-    padding-top: 15px;
+    padding-bottom: 20px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+    background-color: blueviolet
 }
 
 .main-header div ul {
@@ -26,4 +32,14 @@
     display: inline-block;
     margin-left: 25px;
     
+    
+}
+
+.earth {
+    height: 400px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url(../assets/image/space-view-of-earth.png);
+    background-size: cover;
+    background-position: center;
 }
