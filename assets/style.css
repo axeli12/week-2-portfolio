@@ -3,9 +3,7 @@
     padding: 0;
     margin: 0;
 }
-.root{
-    --bckground: F71BF0
-}
+
 title{
     background-color: black;
 }
@@ -19,6 +17,7 @@ title{
 
 
 .main-header div {
+    box-sizing: border-box;
     padding-bottom: 20px;
     margin-right: 20px;
     float: right;
@@ -47,7 +46,7 @@ title{
     background-position: center;
 }
 
-aside {
+h2 {
     flex-direction: column;
     flex: 1;
     padding-top: 40px;
@@ -56,18 +55,19 @@ aside {
     text-decoration: underline;
     font-size: 50px;
     color: navy;
- 
-    
-    
-        
-    
 }
 
- article p {
-    flex-direction: column;
-   font-size: 20px;
-   width: 70%;
-   float: right;
-  
-   
+h2::after{
+    border-right: 6px solid black;
+    height: 500px;
+    right: 50%;
+    margin-right: -3px;
+}
+
+ article p{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    margin-left: 500px;
+    
  }
