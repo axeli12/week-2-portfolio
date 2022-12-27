@@ -47,10 +47,27 @@ title{
     background-position: center;
 }
 
-h2{
+aside {
+    flex-direction: column;
+    flex: 1;
+    padding-top: 40px;
+    padding-left: 180px;
+    padding-bottom: 40px;
+    text-decoration: underline;
     font-size: 50px;
     color: navy;
+ 
+    
+    
+        
+    
 }
-article p{
-    float: right;
-}
+
+ article p {
+    flex-direction: column;
+   font-size: 20px;
+   width: 70%;
+   float: right;
+  
+   
+ }
