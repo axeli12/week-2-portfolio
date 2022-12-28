@@ -63,10 +63,51 @@ h2::after{
     border-right: .3rem solid black;
 }
 
-p{
+article p{
     display:inline-block;
     flex-wrap: wrap;
     font-size: 20px;
     margin: 2px 0 400px 450px;
 }
-
+h3{
+    display: inline;
+    text-decoration: underline;
+    font-size: 50px;
+    color: navy;
+    margin-left: 150px;
+}
+h3::after{
+    position: absolute;
+    display: inline;
+    content: "";
+    height: 1000px;
+    margin: 0 2rem;
+    border-right: .3rem solid black;
+}
+.main-card {
+    background-image: url(./image/Screenshot\ 2022-12-27\ at\ 6.27.08\ PM.png);
+    margin-left: 400px;
+    display: center;
+    border: 20px;
+    padding: 70px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: lightseagreen;
+  }
+  
+  .main-card header {
+    text-align: center;
+    padding: 10px;
+    background: #13293d;
+    color: #fff;
+    margin: 2px 500px 2px 300px;
+  }
+  
+  
+  .main-card p {
+    text-align: center;
+    padding: 10px;
+    background: #13293d;
+    color: #fff;
+    margin: 2px 500px 2px 300px;
+  }
