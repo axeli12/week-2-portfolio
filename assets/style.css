@@ -84,7 +84,7 @@ h3::after{
     margin: 0 2rem;
     border-right: .3rem solid black;
 }
-.main-card {
+  .main-card{
     filter: brightness(40%);
     background-image: url(./image/Screenshot\ 2022-12-27\ at\ 6.27.08\ PM.png);
     margin-left: 400px;
@@ -96,7 +96,7 @@ h3::after{
     border-color: lightseagreen;
   }
   
-  .main-card header {
+  .main-card header{
     text-align: center;
     padding: 10px;
     background: #13293d;
@@ -118,6 +118,13 @@ h3::after{
  .main-card:hover{
     cursor: pointer;
     filter: brightness(100%);
-    
     opacity: 4;
  }
+.main-card a.week1::after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: ' ';
+}
