@@ -95,7 +95,7 @@ h3::after{
     border-color: lightseagreen;
   }
   
-  .main-card footer {
+  .main-card header {
     text-align: center;
     padding: 10px;
     background: #13293d;
@@ -111,7 +111,7 @@ h3::after{
     padding: 10px;
     background: #13293d;
     color: #fff;
-    margin-left: -70px;
+    margin-left: -79px;
     float: left;
   }
  
