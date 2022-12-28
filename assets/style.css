@@ -46,21 +46,27 @@ title{
     background-position: center;
 }
 
-h2 {
+h2{
     display: inline;
     text-decoration: underline;
     font-size: 50px;
     color: navy;
-    margin-top: 20px;
     margin-left: 150px;
 }
 
+h2::after{
+    position: absolute;
+    display: inline;
+    content: "";
+    height: 200px;
+    margin: 0 2rem;
+    border-right: .3rem solid black;
+}
 
 p{
-    display: flex;
+    display:inline-block;
     flex-wrap: wrap;
     font-size: 20px;
-    margin-left: 450px;
-     margin-bottom: 400px;
+    margin: 2px 0 400px 450px;
 }
 
