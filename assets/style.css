@@ -47,27 +47,20 @@ title{
 }
 
 h2 {
-    flex-direction: column;
-    flex: 1;
-    padding-top: 40px;
-    padding-left: 180px;
-    padding-bottom: 40px;
+    display: inline;
     text-decoration: underline;
     font-size: 50px;
     color: navy;
+    margin-top: 20px;
+    margin-left: 150px;
 }
 
-h2::after{
-    border-right: 6px solid black;
-    height: 500px;
-    right: 50%;
-    margin-right: -3px;
-}
 
- article p{
+p{
     display: flex;
     flex-wrap: wrap;
     font-size: 20px;
-    margin-left: 500px;
-    
- }
+    margin-left: 450px;
+     margin-bottom: 400px;
+}
+
