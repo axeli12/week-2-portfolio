@@ -85,6 +85,7 @@ h3::after{
     border-right: .3rem solid black;
 }
 .main-card {
+    filter: brightness(40%);
     background-image: url(./image/Screenshot\ 2022-12-27\ at\ 6.27.08\ PM.png);
     margin-left: 400px;
     display: center;
@@ -114,4 +115,9 @@ h3::after{
     margin-left: -79px;
     float: left;
   }
- 
+ .main-card:hover{
+    cursor: pointer;
+    filter: brightness(100%);
+    
+    opacity: 4;
+ }
