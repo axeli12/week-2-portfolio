@@ -49,9 +49,9 @@ title{
 h2{
     display: inline;
     text-decoration: underline;
-    font-size: 50px;
+    font-size: 40px;
     color: navy;
-    margin-left: 150px;
+    margin-left: 79px;
 }
 
 h2::after{
@@ -69,25 +69,41 @@ article p{
     font-size: 20px;
     margin: 2px 0 400px 450px;
 }
-h3{
-    display: inline;
+
+h3,h4{
+    position: static;
+    margin-top: 110px;
+    display: inline-block;
     text-decoration: underline;
-    font-size: 50px;
+    font-size: 40px;
     color: navy;
     margin-left: 150px;
+}
+h4{
+    margin-bottom: 50px;
+    margin-left: 39px;
 }
 h3::after{
     position: absolute;
     display: inline;
     content: "";
-    height: 1000px;
+    height: 600px;
     margin: 0 2rem;
     border-right: .3rem solid black;
 }
+h4::after{
+    position: absolute;
+    display: inline;
+    content: "";
+    height: 100px;
+    margin: 0 2rem;
+    border-right: .3rem solid black;
+}
+
   .main-card{
     filter: brightness(40%);
     background-image: url(./image/Screenshot\ 2022-12-27\ at\ 6.27.08\ PM.png);
-    margin-left: 400px;
+    margin-left: 350px;
     display: center;
     border: 20px;
     padding: 70px;
@@ -128,3 +144,40 @@ h3::after{
     bottom: 0;
     content: ' ';
 }
+
+.card{
+    filter: brightness(40%);
+    background-image: url(./image/Screenshot\ 2022-12-27\ at\ 6.27.08\ PM.png);
+    margin-left: 350px;
+    display: inline-flex;
+    width: 600px;
+    padding: 40px;
+    border: 20px;
+
+    border-style: solid;
+    border-width: 3px;
+    border-color: lightseagreen;
+}
+
+.card header{
+    text-align: center;
+    padding: 10px;
+    background: #13293d;
+    color: #fff;
+    margin-left: -70px;
+    margin-top: 30px;
+    float: left;
+  }
+  .card p {
+    text-align: center;
+    padding: 10px;
+    background: #13293d;
+    color: #fff;
+    margin-left: -79px;
+    float: left;
+  }
+ .card:hover{
+    cursor: pointer;
+    filter: brightness(100%);
+    opacity: 4;
+ }
