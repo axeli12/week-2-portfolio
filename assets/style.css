@@ -51,7 +51,7 @@ h2{
     text-decoration: underline;
     font-size: 40px;
     color: navy;
-    margin-left: 79px;
+    margin-left: 68px;
 }
 
 h2::after{
@@ -150,7 +150,7 @@ h4::after{
     background-image: url(./image/Screenshot\ 2022-12-27\ at\ 6.27.08\ PM.png);
     margin-left: 350px;
     display: inline-flex;
-    width: 600px;
+    width: 380px;
     padding: 40px;
     border: 20px;
 
@@ -181,3 +181,16 @@ h4::after{
     filter: brightness(100%);
     opacity: 4;
  }
+.con-list ul{
+    display: flex;
+
+    list-style-type: none;
+}
+.con-list ul li {
+    font-size: 19px;
+    text-decoration: underline;
+    justify-content: space-around;
+    display: inline;
+    margin-left: 300px;
+    margin-bottom: 600 px;
+}
