@@ -81,7 +81,7 @@ h3,h4{
 }
 h4{
     margin-bottom: 50px;
-    margin-left: 39px;
+    margin-left: 55px;
 }
 h3::after{
     position: absolute;
@@ -106,13 +106,13 @@ h4::after{
     margin-left: 350px;
     display: center;
     border: 20px;
-    padding: 70px;
+    padding: 80px;
     border-style: solid;
     border-width: 3px;
     border-color: lightseagreen;
   }
   
-  .main-card header{
+  .main-card h5{
     text-align: center;
     padding: 10px;
     background: #13293d;
@@ -123,7 +123,7 @@ h4::after{
   }
   
   
-  .main-card p {
+  .main-card span {
     text-align: center;
     padding: 10px;
     background: #13293d;
@@ -144,22 +144,24 @@ h4::after{
     bottom: 0;
     content: ' ';
 }
+    
+
 
 .card{
     filter: brightness(40%);
-    background-image: url(./image/Screenshot\ 2022-12-27\ at\ 6.27.08\ PM.png);
-    margin-left: 350px;
-    display: inline-flex;
+    margin: 25px 0 0 350px;
+    display: inline-block;
+    flex-direction: row;
     width: 380px;
     padding: 40px;
     border: 20px;
-
     border-style: solid;
     border-width: 3px;
     border-color: lightseagreen;
 }
 
-.card header{
+
+.card h5{
     text-align: center;
     padding: 10px;
     background: #13293d;
@@ -168,7 +170,7 @@ h4::after{
     margin-top: 30px;
     float: left;
   }
-  .card p {
+  .card span {
     text-align: center;
     padding: 10px;
     background: #13293d;
@@ -176,6 +178,14 @@ h4::after{
     margin-left: -79px;
     float: left;
   }
+  .card a.week1::after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: ' ';
+}
  .card:hover{
     cursor: pointer;
     filter: brightness(100%);
@@ -193,4 +203,65 @@ h4::after{
     display: inline;
     margin-left: 300px;
     margin-bottom: 600 px;
+}
+
+.prj{
+    background-image: url(./image/Screenshot\ 2023-01-07\ at\ 2.50.03\ PM.png);
+    background-size: 400px;
+}
+.ft1{
+    background-image: url(./image/Screenshot\ 2023-01-07\ at\ 4.51.07\ PM.png);
+    background-size: 400px;
+}
+
+.ft2{
+    background-image: url(./image/Screenshot\ 2023-01-07\ at\ 4.56.43\ PM.png);
+    background-size: 400px;
+}
+
+.ft3{
+    background-image: url(./image/Screenshot\ 2023-01-07\ at\ 4.57.38\ PM.png);
+    background-size: 400px;
+}
+
+@media screen and (max-width: 992px) {
+    .main-header{
+        width: 50%;
+    }
+    .earth{
+        width: 50%;
+    }
+    .main-card{
+        width: 50%;
+    }
+    .card{
+        width: 50%;
+    }
+    .con-list{
+        width: 50%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .main-header{
+        width: 100%;
+    }
+    .earth{
+        width: 100%;
+    }
+
+    .main-card{
+        width: 100%;
+    }
+    .card{
+        width: 100%;
+    }
+    .con-list{
+        width: 100%;
+    }
+    #contact-me{
+        width: 100%;
+    }
+
 }
