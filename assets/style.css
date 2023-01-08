@@ -224,44 +224,43 @@ h4::after{
     background-size: 400px;
 }
 
-@media screen and (max-width: 992px) {
-    .main-header{
-        width: 50%;
-    }
-    .earth{
-        width: 50%;
-    }
-    .main-card{
-        width: 50%;
-    }
-    .card{
-        width: 50%;
-    }
-    .con-list{
-        width: 50%;
-    }
+@media screen and (max-width: 1000px) {
+    header {
+        padding: 0 0 15px 0;
+        justify-content: center;
+        text-align: center;
+      }
+
+      header h1 {
+        width: 100%;
+        padding: 5px;
+        margin-bottom: 10px;
+        font-size: 10vw;
+      }
+      .con > h4 
+      .con > div {
+      flex: 0 0 100%;
+      }
+      .con > h4 {
+        border-right: none;
+        border-bottom: 4px solid black;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+        text-align: left;
+        font-size: 7vh;
+        }
 
 }
 
 @media screen and (max-width: 768px) {
-    .main-header{
-        width: 100%;
-    }
-    .earth{
-        width: 100%;
+    .main-card, .card {
+        flex-basis: 100%;
     }
 
-    .main-card{
-        width: 100%;
+    .con{
+        flex-direction: column;
+        align-items: flex-start;
     }
-    .card{
-        width: 100%;
-    }
-    .con-list{
-        width: 100%;
-    }
-    #contact-me{
-        width: 100%;
-    }
+
 
 }
